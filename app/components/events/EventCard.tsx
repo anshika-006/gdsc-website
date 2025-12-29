@@ -26,7 +26,7 @@ export default function EventCard({
   socialLinks
 }: EventCardProps) {
   return (
-    <div className="flex flex-col gap-4 rounded-4xl bg-[var(--color-background-gray)] p-5 sm:flex-row sm:gap-6 sm:p-4">
+    <div className="flex flex-col gap-4 rounded-4xl bg-[var(--color-background-gray)] p-5 sm:flex-row sm:gap-6 sm:p-4 transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-lg cursor-pointer">
       {/* Event Image */}
       <div className="relative h-56 w-full shrink-0 overflow-hidden rounded-4xl sm:h-44 sm:w-64">
         <Image
