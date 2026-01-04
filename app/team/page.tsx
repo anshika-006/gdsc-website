@@ -7,8 +7,8 @@ import Arrow from '@/public/arrow';
 export default function TeamPage() {
   return (
     <main className="min-h-screen bg-[#F2F2F2] -z-2 relative overflow-x-hidden py-20 ">
-      <img src='backg.png' className='absolute -z-1 translate-y-60 -translate-x-10  '/>
-      <div className=" sm:px-6 lg:px-8">
+      <img src='backg.png' className='absolute -z-1 translate-y-60 -translate-x-10 w-[400%] h-[14%] lg:h-[20%] xl:h-[25%]'/>
+      <div className="m-5 sm:px-6 lg:px-8">
       {/* HEADER SECTION */}
       <header className="my-10">
         <div className="flex items-center gap-4">
